@@ -1,0 +1,30 @@
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+  "name": "Emaan",
+  "email": "emaan@gmail.com",
+  "password": "432",
+  "role": "student"
+}
+###
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+  "name": "Muqadas",
+  "email": "muqadas@gmail.com",
+  "password": "765",
+  "role": "student"
+}
+###
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+  "name": "Maryam",
+  "email": "maryam@gmail.com",
+  "password": "098",
+  "role": "student"
+}
+
